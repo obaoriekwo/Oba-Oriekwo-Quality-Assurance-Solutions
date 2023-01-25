@@ -1,0 +1,151 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet "href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,600;0,700;1,300;1,400;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<script src="https://use.fontawesome.com/1748414fb8.js"></script>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="LOGO4.jpg" alt="logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Services.html">SERVICES</a></li>
+                <li><a href="Projects.html">PROJECTS</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+        <div class="text-box">
+            <h1>QUALITY ASSURANCE SOLUTIONS</h1>
+            <P>In the ever competitive world, is essential to improve the quality of <br> your products to remain in the business.
+                Quality reflects who you are, is a characteristic that we appreciate.</P>
+                <div>
+                    <a href="Services.html"><button type="button"><span></span> MORE INFO</button></a>
+                    <a href="Contact.html"><button type="button"><span></span>CONTACT US</button></a> 
+                    
+                </div>
+
+        </div>
+    </section>
+
+    <!------------------------------Course------------------------------------------------>
+    
+   <section class="course">
+    <h1>Skill Summary</h1>
+    <p> I am Oba Oriekwo, a software quality assurance engineer and a full stack software developer. <strong>Welcome to my portfolio website</strong></p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Manual testing</h3>
+            <p>Designing of test plan and test scripts for functional, Acceptance and regression testing. Reporting defects and overseeing the
+            defect life cycle. Working knowledge of CI/CD tools such as jenkins, github, github  actions, bitbucket, git bash, tortoise and 
+            Mobile App testing. Collaborated with product owners and developers. Working knowledge of agile/scrum software development methodogy.
+            Good undersanding of Jira Xray test management tool </p>
+            
+             
+            
+
+        </div>
+        <div class="course-col">
+         <h3>Automation testing</h3>
+         <p> Good knowledge of automation and manual testing. 
+            Working knowledge of API testing using postman, swagger, RestAssured API automation. Working knowledge of agile/kanban
+            software development methodology, Dockers, AWS. Strong knowledge of multiple test automation frameworks including Java
+            cucumber maven junit, robotframework (Seleniumlibrary, Browserlibrary, Keyword driven and data driven) and cypress mocka framework </p>
+            
+            
+
+              
+        </div>
+         <div class="course-col">
+             <h3>Full stack development</h3>
+             <p> Solid background in back-end and front-end software development (Fullstack developer. Languages:  Python, SQL, Javascript, CSS, HTML,
+                Wordpress and bootstrap ). Hands-on experience from TypeScript and good Linux command. A 'can-do' attitude with strong collaboration
+                and teamworking skills </p> 
+         </div>
+
+
+     </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!----------Call to Action-------->
+
+<section class="cta">
+    <h1>For more enquiries, click on the contact us button <br> below let's get in touch</h1>
+    <a href="Contact.html" class="hero-btn">CONTACT US</a>
+
+</section>
+
+
+
+<!---------- Footer ------------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p> In the ever competitive world, is essential to improve the quality of your products to remain in the business.<br>
+        Quality reflects who you are, is a characteristic that we appreciate. It means doing it right when nobody is looking.<br>
+        Our goal is to help you get the best quality needed.
+        </p>
+        <div class="icons">
+
+         <a href="https://www.facebook.com/oba.oriekwo" class="fa fa-facebook"></a>
+         <a href="https://www.linkedin.com/in/oba-oriekwo-96304879/" class="fa fa-linkedin"></a>
+         <a href="https://www.instagram.com/obaoriekwo/?hl=en" class="fa fa-instagram"></a>
+         <a href="https://github.com/obaoriekwo" class="fa fa-github"></a>
+         <a href="https://api.whatsapp.com/qr/MZA2UOXP24WTO1?autoload=1&app_absent=0" class="fa fa-whatsapp"></a>
+      
+
+        
+
+        
+
+
+
+ 
+         <p>Copywrite &copy;2023</p>
+
+        </div>
+
+</section>
+
+
+    <!----------------------------Javascript for Toggle Menu-------------------------------->
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+   
+</body>
+</html>
+
+
